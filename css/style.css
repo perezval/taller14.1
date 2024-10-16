@@ -1,3 +1,15 @@
 main {
     min-height: calc(100vh - 160px);
   }
+
+  .card-body {
+    height: 200px; /* Limita la altura del cuerpo de la tarjeta */
+    overflow-y: auto; /* Habilita el scroll vertical */
+  }
+  
+  .card-img-top {
+    width: 100%; /* Asegúrate de que la imagen ocupe todo el ancho del contenedor */
+    height: 200px; /* Establece una altura fija para todas las imágenes */
+    object-fit: cover; /* Recorta la imagen si no se ajusta completamente al contenedor */
+    background-color: black; /* Color de fondo negro para el espacio vacío */
+  }
